@@ -58,5 +58,10 @@ public class Category implements Serializable {
         return new Category(100000000, "未分类");
     }
 
+	public Category() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 }
